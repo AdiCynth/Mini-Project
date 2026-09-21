@@ -1,0 +1,37 @@
+======================================================
+FoodBridge - Project Report & Functional Specification
+======================================================
+
+1. THE CORE PROBLEM
+------------------------------------------------------
+Mid-sized food businesses (wholesale bakeries, caterers, grocery chains) generate surplus food daily. This food is perfectly safe for consumption but cannot be sold the following day. Unfortunately, the logistics of donating this food are often more expensive and time-consuming than throwing it away. 
+
+FoodBridge acts as a digital bridge to solve this. It allows businesses to instantly list surplus items and automatically routes them to the nearest vetted NGOs, food banks, or discount buyers before the food expires.
+
+2. TARGET USERS
+------------------------------------------------------
+- The Donor (SME): Restaurant managers or warehouse supervisors who need to offload surplus inventory (e.g., 50 sandwiches) in under two minutes during busy closing shifts.
+- The Receiver (NGO/Charity): Local food banks that need real-time alerts when food becomes available nearby, complete with exact quantities and pickup windows.
+- The Admin: The platform operator who vets NGOs for food safety compliance and manages the routing algorithms and platform health.
+
+3. KEY PLATFORM FEATURES
+------------------------------------------------------
+A. Dynamic Geo-Routing (SDG 13: Climate Action)
+The platform actively calculates the distance between the donor and eligible receivers. It prioritizes NGOs that are physically closest to reduce transport emissions, notifying them when food is available.
+
+B. Perishable Inventory Constraints
+Listings have strict timestamps (pickup window start/end). If food isn't claimed by the end of the pickup window, it automatically expires and drops off the map to ensure food safety.
+
+C. Audit Trails & ESG Reporting (SDG 12: Responsible Consumption)
+The platform tracks exactly how many kilograms of food a business saved from the landfill over time. This data is aggregated into an ESG (Environmental, Social, and Governance) report that businesses can use to track their sustainability goals.
+
+4. USER WORKFLOWS
+------------------------------------------------------
+- Donor Workflow: Logs in -> Navigates to dashboard -> Clicks a quick-add item from their catalog (e.g., "Croissants +5") -> Sets a pickup window -> Submits.
+- Receiver Workflow: Logs in -> Views live map of available food in their radius -> Clicks a listing to claim it -> Drives to donor to pick it up -> Marks claim as "Picked Up".
+- Admin Workflow: Logs in -> Reviews pending NGO applications -> Vets their food safety certifications -> Views platform-wide statistics (total food saved).
+
+5. TECHNICAL SHIFT (MongoDB)
+------------------------------------------------------
+The platform uses Next.js and Tailwind CSS for a fast, mobile-first frontend. The backend is powered by Node.js and Express. 
+*Architectural Update*: The database has been shifted from PostgreSQL to MongoDB. Geographic routing will utilize MongoDB's `2dsphere` indexes and `$near` spatial queries to handle the location-based matching.
