@@ -1,0 +1,921 @@
+{
+  "schema": "openai.presentation.layout/v5",
+  "unit": "px",
+  "slide": {
+    "id": "sl/y90nupkv",
+    "index": 0,
+    "layout": {
+      "id": "ly/ux4ruhcv",
+      "name": "VERTICAL_TEXT"
+    },
+    "masterLayoutId": "ly/atofqts7",
+    "backgroundColor": "rgba(255,255,255,1)",
+    "position": {
+      "left": 0,
+      "top": 0,
+      "width": 1280,
+      "height": 720
+    }
+  },
+  "inheritedLayers": [
+    {
+      "scope": "layout",
+      "id": "ly/ux4ruhcv",
+      "name": "VERTICAL_TEXT",
+      "type": "vertTx",
+      "parentLayoutId": "ly/atofqts7",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "layout",
+          "id": "sh/3mt4nqt0",
+          "editable": false,
+          "name": "Google Shape;76;p15",
+          "position": {
+            "left": 88,
+            "top": 38.33,
+            "width": 1104,
+            "height": 139.17
+          },
+          "geometry": "rect",
+          "lineWidth": 0,
+          "style": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            },
+            "useParagraphSpacing": true
+          }
+        },
+        {
+          "order": 2,
+          "kind": "shape",
+          "scope": "layout",
+          "id": "sh/2l03ulsf",
+          "editable": false,
+          "name": "Google Shape;77;p15",
+          "position": {
+            "left": 411.58,
+            "top": -131.92,
+            "width": 456.83,
+            "height": 1104
+          },
+          "rotation": 90,
+          "geometry": "rect",
+          "lineWidth": 0,
+          "style": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            },
+            "useParagraphSpacing": true
+          }
+        },
+        {
+          "order": 3,
+          "kind": "textbox",
+          "scope": "layout",
+          "id": "sh/wbepkf2x",
+          "editable": false,
+          "name": "Google Shape;80;p15",
+          "position": {
+            "left": 1228.24,
+            "top": 681.67,
+            "width": 51.76,
+            "height": 38.33
+          },
+          "geometry": "rect",
+          "lineWidth": 0,
+          "text": "1",
+          "style": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            },
+            "useParagraphSpacing": true
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "1",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "1",
+                  "anchor": 1,
+                  "verticalAlignment": "top",
+                  "wrap": "square",
+                  "autoFit": "none",
+                  "insets": {
+                    "top": 4.8,
+                    "right": 9.6,
+                    "bottom": 4.8,
+                    "left": 9.6
+                  },
+                  "useParagraphSpacing": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 4,
+          "kind": "textbox",
+          "scope": "layout",
+          "id": "sh/tojm9cfq",
+          "editable": false,
+          "name": "Footer Placeholder 2",
+          "position": {
+            "left": 164.22,
+            "top": 683.9,
+            "width": 979.3,
+            "height": 38.33
+          },
+          "geometry": "rect",
+          "text": "2nd International Conference on Technologies for Energy Agriculture and Healthcare (ICTEAH 2025)",
+          "style": {
+            "fontSize": 21.33,
+            "typeface": "Fira Sans",
+            "color": "#FFFFFF",
+            "alignment": "center"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "2nd International Conference on Technologies for Energy Agriculture and Healthcare (ICTEAH 2025)",
+              "style": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "2nd International Conference on Technologies for Energy Agriculture and Healthcare (ICTEAH 2025)",
+                  "fontSize": 21.33,
+                  "typeface": "Fira Sans",
+                  "color": "#FFFFFF",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "scope": "master",
+      "id": "ly/atofqts7",
+      "type": "master",
+      "backgroundColor": "lt1",
+      "elements": [
+        {
+          "order": 1,
+          "kind": "shape",
+          "scope": "master",
+          "id": "sh/v6lcrixk",
+          "editable": false,
+          "name": "Google Shape;10;p4",
+          "position": {
+            "left": 160.76,
+            "top": 30.9,
+            "width": 958.48,
+            "height": 77.48
+          },
+          "geometry": "rect",
+          "lineWidth": 0,
+          "style": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            },
+            "useParagraphSpacing": true
+          }
+        },
+        {
+          "order": 2,
+          "kind": "image",
+          "scope": "master",
+          "id": "im/je58bihw",
+          "editable": false,
+          "name": "Google Shape;11;p4",
+          "position": {
+            "left": 619.11,
+            "top": 61.87,
+            "width": 40.52,
+            "height": 1281.26
+          },
+          "rotation": 90,
+          "contentType": "image/png",
+          "crop": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "asset": {
+            "contentType": "image/png",
+            "byteLength": 7936
+          },
+          "fillImage": {
+            "contentType": "image/png",
+            "byteLength": 7936
+          }
+        },
+        {
+          "order": 3,
+          "kind": "image",
+          "scope": "master",
+          "id": "im/ri58fih8",
+          "editable": false,
+          "name": "Google Shape;15;p4",
+          "position": {
+            "left": 479.25,
+            "top": 182.73,
+            "width": 18.52,
+            "height": 982.68
+          },
+          "rotation": 90,
+          "contentType": "image/png",
+          "crop": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "asset": {
+            "contentType": "image/png",
+            "byteLength": 3607
+          },
+          "fillImage": {
+            "contentType": "image/png",
+            "byteLength": 3607
+          }
+        },
+        {
+          "order": 4,
+          "kind": "image",
+          "scope": "master",
+          "id": "im/tk7qhszy",
+          "editable": false,
+          "name": "Google Shape;17;p4",
+          "position": {
+            "left": 1155.53,
+            "top": 23.18,
+            "width": 101.68,
+            "height": 75.79
+          },
+          "contentType": "image/png",
+          "crop": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "bottom": 0
+          },
+          "asset": {
+            "contentType": "image/png",
+            "byteLength": 8481
+          },
+          "fillImage": {
+            "contentType": "image/png",
+            "byteLength": 8481
+          }
+        },
+        {
+          "order": 5,
+          "kind": "textbox",
+          "scope": "master",
+          "id": "sh/d03a143i",
+          "editable": false,
+          "name": "Google Shape;21;p5",
+          "position": {
+            "left": 1206.38,
+            "top": 684.43,
+            "width": 75.85,
+            "height": 38.33
+          },
+          "geometry": "rect",
+          "lineWidth": 0,
+          "text": "1",
+          "style": {
+            "anchor": 1,
+            "verticalAlignment": "top",
+            "wrap": "square",
+            "autoFit": "none",
+            "insets": {
+              "top": 4.8,
+              "right": 9.6,
+              "bottom": 4.8,
+              "left": 9.6
+            },
+            "useParagraphSpacing": true
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "1",
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "1",
+                  "anchor": 1,
+                  "verticalAlignment": "top",
+                  "wrap": "square",
+                  "autoFit": "none",
+                  "insets": {
+                    "top": 4.8,
+                    "right": 9.6,
+                    "bottom": 4.8,
+                    "left": 9.6
+                  },
+                  "useParagraphSpacing": true
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 6,
+          "kind": "textbox",
+          "scope": "master",
+          "id": "sh/618ru54n",
+          "editable": false,
+          "name": "Footer Placeholder 2",
+          "position": {
+            "left": 164.22,
+            "top": 683.9,
+            "width": 979.3,
+            "height": 38.33
+          },
+          "geometry": "rect",
+          "text": "2nd International Conference on Technologies for Energy Agriculture and Healthcare (ICTEAH 2025)",
+          "style": {
+            "fontSize": 21.33,
+            "typeface": "Fira Sans",
+            "color": "#FFFFFF",
+            "alignment": "center"
+          },
+          "paragraphs": [
+            {
+              "index": 1,
+              "text": "2nd International Conference on Technologies for Energy Agriculture and Healthcare (ICTEAH 2025)",
+              "style": {
+                "alignment": "center"
+              },
+              "runs": [
+                {
+                  "index": 1,
+                  "text": "2nd International Conference on Technologies for Energy Agriculture and Healthcare (ICTEAH 2025)",
+                  "fontSize": 21.33,
+                  "typeface": "Fira Sans",
+                  "color": "#FFFFFF",
+                  "alignment": "center"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "order": 7,
+          "kind": "image",
+          "scope": "master",
+          "id": "im/vuho72l4",
+          "editable": false,
+          "name": "Picture 1",
+          "position": {
+            "left": 22.59,
+            "top": 27.34,
+            "width": 208.1,
+            "height": 68.03
+          },
+          "contentType": "image/png",
+          "asset": {
+            "contentType": "image/png",
+            "byteLength": 22216
+          },
+          "fillImage": {
+            "contentType": "image/png",
+            "byteLength": 22216
+          }
+        }
+      ]
+    }
+  ],
+  "elements": [
+    {
+      "order": 1,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/7qp4be9c",
+      "editable": true,
+      "name": "Slide Number Placeholder 3",
+      "position": {
+        "left": 1228.24,
+        "top": 681.67,
+        "width": 51.76,
+        "height": 38.33
+      },
+      "text": "1",
+      "style": {
+        "anchor": 1,
+        "fontSize": 24,
+        "typeface": "Calibri",
+        "color": "#FFFFFF",
+        "bold": false,
+        "italic": false,
+        "alignment": "left",
+        "verticalAlignment": "top",
+        "textTransform": "none",
+        "wrap": "square",
+        "autoFit": "none",
+        "insets": {
+          "top": 4.8,
+          "right": 9.6,
+          "bottom": 4.8,
+          "left": 9.6
+        },
+        "useParagraphSpacing": true
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "1",
+          "runs": [
+            {
+              "index": 1,
+              "text": "1"
+            }
+          ],
+          "bulletCharacter": "",
+          "marginLeft": 0,
+          "indent": 0,
+          "lineSpacingPercent": 100000
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/65g3298r",
+      "editable": true,
+      "name": "TextBox 4",
+      "position": {
+        "left": 86.4,
+        "top": 155.52,
+        "width": 998.4,
+        "height": 69.12
+      },
+      "geometry": "rect",
+      "text": "FOODBRIDGE",
+      "style": {
+        "anchor": 1,
+        "fontSize": 45.33,
+        "typeface": "Aptos",
+        "color": "#BE1F33",
+        "bold": true,
+        "italic": false,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "textTransform": "none",
+        "wrap": "none",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 5.76,
+          "right": 5.76,
+          "bottom": 5.76,
+          "left": 5.76
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "FOODBRIDGE",
+          "lineSpacingPercent": 100000,
+          "style": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "FOODBRIDGE",
+              "anchor": 1,
+              "fontSize": 45.33,
+              "typeface": "Aptos",
+              "color": "#BE1F33",
+              "bold": true,
+              "alignment": "center",
+              "verticalAlignment": "top",
+              "wrap": "none",
+              "autoFit": "resizeShapeToFitText",
+              "insets": {
+                "top": 5.76,
+                "right": 5.76,
+                "bottom": 5.76,
+                "left": 5.76
+              }
+            }
+          ],
+          "bulletCharacter": ""
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/ts7md4r2",
+      "editable": true,
+      "name": "TextBox 5",
+      "position": {
+        "left": 120,
+        "top": 225.6,
+        "width": 931.2,
+        "height": 52.8
+      },
+      "geometry": "rect",
+      "text": "A Geo-Routed Surplus Food Redistribution Platform",
+      "style": {
+        "anchor": 1,
+        "fontSize": 30.67,
+        "typeface": "Aptos",
+        "color": "#2C2C2C",
+        "bold": true,
+        "italic": false,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "textTransform": "none",
+        "wrap": "none",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 5.76,
+          "right": 5.76,
+          "bottom": 5.76,
+          "left": 5.76
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "A Geo-Routed Surplus Food Redistribution Platform",
+          "lineSpacingPercent": 100000,
+          "style": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "A Geo-Routed Surplus Food Redistribution Platform",
+              "anchor": 1,
+              "fontSize": 30.67,
+              "typeface": "Aptos",
+              "color": "#2C2C2C",
+              "bold": true,
+              "alignment": "center",
+              "verticalAlignment": "top",
+              "wrap": "none",
+              "autoFit": "resizeShapeToFitText",
+              "insets": {
+                "top": 5.76,
+                "right": 5.76,
+                "bottom": 5.76,
+                "left": 5.76
+              }
+            }
+          ],
+          "bulletCharacter": ""
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/sryl4zqx",
+      "editable": true,
+      "name": "TextBox 6",
+      "position": {
+        "left": 177.6,
+        "top": 289.92,
+        "width": 796.8,
+        "height": 40.32
+      },
+      "geometry": "rect",
+      "text": "WPL Mini Project",
+      "style": {
+        "anchor": 1,
+        "fontSize": 22.67,
+        "typeface": "Aptos",
+        "color": "#585858",
+        "bold": false,
+        "italic": false,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "textTransform": "none",
+        "wrap": "none",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 5.76,
+          "right": 5.76,
+          "bottom": 5.76,
+          "left": 5.76
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "WPL Mini Project",
+          "lineSpacingPercent": 100000,
+          "style": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "WPL Mini Project",
+              "anchor": 1,
+              "fontSize": 22.67,
+              "typeface": "Aptos",
+              "color": "#585858",
+              "bold": false,
+              "alignment": "center",
+              "verticalAlignment": "top",
+              "wrap": "none",
+              "autoFit": "resizeShapeToFitText",
+              "insets": {
+                "top": 5.76,
+                "right": 5.76,
+                "bottom": 5.76,
+                "left": 5.76
+              }
+            }
+          ],
+          "bulletCharacter": ""
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/fu94fe98",
+      "editable": true,
+      "name": "TextBox 7",
+      "position": {
+        "left": 153.6,
+        "top": 337.92,
+        "width": 844.8,
+        "height": 36.48
+      },
+      "geometry": "rect",
+      "text": "K. J. Somaiya College of Engineering, Mumbai",
+      "style": {
+        "anchor": 1,
+        "fontSize": 20,
+        "typeface": "Aptos",
+        "color": "#2C2C2C",
+        "bold": false,
+        "italic": false,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "textTransform": "none",
+        "wrap": "none",
+        "autoFit": "resizeShapeToFitText",
+        "insets": {
+          "top": 5.76,
+          "right": 5.76,
+          "bottom": 5.76,
+          "left": 5.76
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "K. J. Somaiya College of Engineering, Mumbai",
+          "lineSpacingPercent": 100000,
+          "style": {
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "K. J. Somaiya College of Engineering, Mumbai",
+              "anchor": 1,
+              "fontSize": 20,
+              "typeface": "Aptos",
+              "color": "#2C2C2C",
+              "bold": false,
+              "alignment": "center",
+              "verticalAlignment": "top",
+              "wrap": "none",
+              "autoFit": "resizeShapeToFitText",
+              "insets": {
+                "top": 5.76,
+                "right": 5.76,
+                "bottom": 5.76,
+                "left": 5.76
+              }
+            }
+          ],
+          "bulletCharacter": ""
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "kind": "textbox",
+      "scope": "slide",
+      "id": "sh/utg3698n",
+      "editable": true,
+      "name": "TextBox 8",
+      "position": {
+        "left": 153.6,
+        "top": 385.92,
+        "width": 844.8,
+        "height": 110.4
+      },
+      "geometry": "rect",
+      "text": "Prepared by:\n16014024010 : Aarya Chandra\n16014024011 : Rudra Chaplot\n16014024012 : Aditya Chaugala",
+      "style": {
+        "anchor": 1,
+        "fontSize": 18.67,
+        "typeface": "Aptos",
+        "color": "#585858",
+        "bold": false,
+        "italic": false,
+        "alignment": "center",
+        "verticalAlignment": "top",
+        "textTransform": "none",
+        "wrap": "none",
+        "autoFit": "none",
+        "insets": {
+          "top": 5.76,
+          "right": 5.76,
+          "bottom": 5.76,
+          "left": 5.76
+        }
+      },
+      "paragraphs": [
+        {
+          "index": 1,
+          "text": "Prepared by:",
+          "lineSpacingPercent": 100000,
+          "style": {
+            "fontSize": 18.67,
+            "typeface": "Aptos",
+            "color": "#585858",
+            "bold": false,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "Prepared by:",
+              "anchor": 1,
+              "fontSize": 18.67,
+              "typeface": "Aptos",
+              "color": "#585858",
+              "bold": false,
+              "alignment": "center",
+              "verticalAlignment": "top",
+              "wrap": "none",
+              "autoFit": "none",
+              "insets": {
+                "top": 5.76,
+                "right": 5.76,
+                "bottom": 5.76,
+                "left": 5.76
+              }
+            }
+          ],
+          "bulletCharacter": ""
+        },
+        {
+          "index": 2,
+          "text": "16014024010 : Aarya Chandra",
+          "lineSpacingPercent": 100000,
+          "style": {
+            "fontSize": 18.67,
+            "typeface": "Aptos",
+            "color": "#585858",
+            "bold": false,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "16014024010 : Aarya Chandra",
+              "anchor": 1,
+              "fontSize": 18.67,
+              "typeface": "Aptos",
+              "color": "#585858",
+              "bold": false,
+              "alignment": "center",
+              "verticalAlignment": "top",
+              "wrap": "none",
+              "autoFit": "none",
+              "insets": {
+                "top": 5.76,
+                "right": 5.76,
+                "bottom": 5.76,
+                "left": 5.76
+              }
+            }
+          ],
+          "bulletCharacter": ""
+        },
+        {
+          "index": 3,
+          "text": "16014024011 : Rudra Chaplot",
+          "lineSpacingPercent": 100000,
+          "style": {
+            "fontSize": 18.67,
+            "typeface": "Aptos",
+            "color": "#585858",
+            "bold": false,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "16014024011 : Rudra Chaplot",
+              "anchor": 1,
+              "fontSize": 18.67,
+              "typeface": "Aptos",
+              "color": "#585858",
+              "bold": false,
+              "alignment": "center",
+              "verticalAlignment": "top",
+              "wrap": "none",
+              "autoFit": "none",
+              "insets": {
+                "top": 5.76,
+                "right": 5.76,
+                "bottom": 5.76,
+                "left": 5.76
+              }
+            }
+          ],
+          "bulletCharacter": ""
+        },
+        {
+          "index": 4,
+          "text": "16014024012 : Aditya Chaugala",
+          "lineSpacingPercent": 100000,
+          "style": {
+            "fontSize": 18.67,
+            "typeface": "Aptos",
+            "color": "#585858",
+            "bold": false,
+            "alignment": "center"
+          },
+          "runs": [
+            {
+              "index": 1,
+              "text": "16014024012 : Aditya Chaugala",
+              "anchor": 1,
+              "fontSize": 18.67,
+              "typeface": "Aptos",
+              "color": "#585858",
+              "bold": false,
+              "alignment": "center",
+              "verticalAlignment": "top",
+              "wrap": "none",
+              "autoFit": "none",
+              "insets": {
+                "top": 5.76,
+                "right": 5.76,
+                "bottom": 5.76,
+                "left": 5.76
+              }
+            }
+          ],
+          "bulletCharacter": ""
+        }
+      ]
+    }
+  ]
+}
